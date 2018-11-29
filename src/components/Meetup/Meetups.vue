@@ -22,7 +22,7 @@
                   <v-spacer></v-spacer>
                   <v-btn flat color="amber accent-4" :to="'/meetups/' + meetup.id">
                     <v-icon left light>arrow_forward</v-icon>
-                    View More
+                    Read More
                   </v-btn>
                 </v-card-actions>
               </v-flex>
