@@ -4,7 +4,7 @@
       <v-flex xs12 class="text-xs-center">
         <v-progress-circular
           indeterminate
-          color="orange darken-4"
+          color="amber accent-4"
           :width="7"
           :size="70"
           v-if="loading"></v-progress-circular>
@@ -27,7 +27,7 @@
     </v-layout>
     <v-layout row wrap  class="mt-2">
       <v-flex xs12 class="text-xs-center">
-       <p style="text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+       <p>Meetup is a service used to organize online groups that host in-person events for people with similar interests.Join us for our awsome Dev meetups</p>
        <v-btn large router to="/meetups" class="info">Explore Meetups</v-btn>
       </v-flex>
     </v-layout>

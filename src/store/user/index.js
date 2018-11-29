@@ -62,6 +62,7 @@ export default {
         .then(
           user => {
             commit('setLoading', false)
+            location.reload()
             const newUser = {
               id: user.uid,
               registeredMeetups: [],
@@ -85,6 +86,7 @@ export default {
         .then(
           user => {
             commit('setLoading', false)
+            location.reload()
             const newUser = {
               id: user.uid,
               registeredMeetups: [],

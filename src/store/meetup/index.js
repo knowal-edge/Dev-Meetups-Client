@@ -4,20 +4,12 @@ export default {
   state: {
     loadedMeetups: [
       {
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg',
+        imageUrl: 'https://sparksolutions.co/wp-content/uploads/2017/10/devheroes-1_00.png',
         id: 'afajfjadfaadfa323',
-        title: 'Meetup in New York',
+        title: 'Sign Up to get started',
         date: new Date(),
-        location: 'New York',
-        description: 'New York, New York!'
-      },
-      {
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Paris_-_Blick_vom_gro%C3%9Fen_Triumphbogen.jpg',
-        id: 'aadsfhbkhlk1241',
-        title: 'Meetup in Paris',
-        date: new Date(),
-        location: 'Paris',
-        description: 'It\'s Paris!'
+        location: null,
+        description: null
       }
     ]
   },
