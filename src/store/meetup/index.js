@@ -35,6 +35,9 @@ export default {
       if (payload.title) {
         meetup.title = payload.title
       }
+      if (payload.imageUrl) {
+        updateObj.imageUrl = payload.imageUrl
+      }
       if (payload.description) {
         meetup.description = payload.description
       }
@@ -98,6 +101,9 @@ export default {
       const updateObj = {}
       if (payload.title) {
         updateObj.title = payload.title
+      }
+      if (payload.imageUrl) {
+        updateObj.imageUrl = payload.imageUrl
       }
       if (payload.description) {
         updateObj.description = payload.description
