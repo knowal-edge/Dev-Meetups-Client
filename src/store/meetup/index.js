@@ -4,9 +4,17 @@ export default {
   state: {
     loadedMeetups: [
       {
-        imageUrl: 'https://sparksolutions.co/wp-content/uploads/2017/10/devheroes-1_00.png',
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/dev-meetups-8db90.appspot.com/o/devheroes-1_00.png?alt=media&token=460f71a7-9eed-4283-92dd-47782569c582',
         id: 'afajfjadfaadfa323',
-        title: 'Sign Up to get started',
+        title: 'Welcome to Dev MeetUp',
+        date: new Date(),
+        location: null,
+        description: null
+      },
+      {
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/dev-meetups-8db90.appspot.com/o/registration.jpg?alt=media&token=1d7bd7d9-b452-4be7-a2af-260d738587fa',
+        id: 'sdfgdssdvdsvs',
+        title: 'Sign Up to GetStarted',
         date: new Date(),
         location: null,
         description: null

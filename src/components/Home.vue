@@ -10,6 +10,11 @@
           v-if="loading"></v-progress-circular>
       </v-flex>
     </v-layout>
+    <v-layout row wrap  class="mt-2">
+      <v-flex xs12 class="text-xs-center">
+       <v-btn large router to="/meetups" class="info">Explore Meetups</v-btn>
+      </v-flex>
+    </v-layout>
     <v-layout row wrap class="mt-2" v-if="!loading">
       <v-flex xs12>
         <v-carousel style="cursor: pointer;">
@@ -25,12 +30,7 @@
         </v-carousel>
       </v-flex>
     </v-layout>
-    <v-layout row wrap  class="mt-2">
-      <v-flex xs12 class="text-xs-center">
-       <p>Meetup is a service used to organize online groups that host in-person events for people with similar interests.Join us for our awsome Dev meetups</p>
-       <v-btn large router to="/meetups" class="info">Explore Meetups</v-btn>
-      </v-flex>
-    </v-layout>
+   
   </v-container>
 </template>
 
@@ -42,6 +42,9 @@
       },
       loading () {
         return this.$store.getters.loading
+      },
+       userIsAuthenticated () {
+        return this.$store.getters.user !== null && this.$store.getters.user !== undefined
       }
     },
     methods: {
